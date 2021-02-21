@@ -9,17 +9,7 @@
       <div class="col-sm">
         <ul class="list-unstyled">
           <li>
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-          </li>
-          {%- if site.email -%}
-            <li>
-              <a href="mailto:{{ site.email }}">
-                {{ site.email }}
-              </a>
+            Olivia Lawrence-Weilmann
             </li>
           {%- endif -%}
         </ul>
@@ -28,10 +18,6 @@
 
       <div class="col-sm text-right">
         <p>{{- site.description | escape -}}</p>
-
-        <p>
-          <a href="https://nicolas-van.github.io/bootstrap-4-github-pages/">Powered by Bootstrap 4 Github Pages</a>
-        </p>
       </div>
 
     </div>
