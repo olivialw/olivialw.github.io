@@ -13,13 +13,14 @@ div a {
 
 p a {
     color:#007bff;
-    text-decoration: underline;
-    
+    text-decoration: underline;    
 }
-
 
 
 #extend-to-fill{
     min-height: 80vh;
 }
 
+span a{
+    color: white;
+}
