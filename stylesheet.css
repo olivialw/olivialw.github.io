@@ -1,4 +1,4 @@
-#sidebar{
+#mint{
     background-color:#E6EFED;
 }
 
@@ -6,6 +6,20 @@
     background-color: #1a1a1a;
 }
 
-a {
-    text-decoration: underline;
+div a {
+    color:black;
+    text-decoration:none;
 }
+
+p a {
+    color:#007bff;
+    text-decoration: underline;
+    
+}
+
+
+
+#extend-to-fill{
+    min-height: 80vh;
+}
+
