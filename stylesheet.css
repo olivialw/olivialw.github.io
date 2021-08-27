@@ -16,6 +16,11 @@ p a {
     text-decoration: underline;    
 }
 
+li a {
+    color:#007bff;
+    text-decoration: underline;    
+}
+
 
 #extend-to-fill{
     min-height: 80vh;
